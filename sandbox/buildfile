@@ -1,0 +1,4 @@
+-x test.elf
+-O 0
+-o objs
+.
