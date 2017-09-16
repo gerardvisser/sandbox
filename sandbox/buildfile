@@ -1,4 +1,5 @@
 -x test.elf
 -O 0
 -o objs
+-s c++11
 .
