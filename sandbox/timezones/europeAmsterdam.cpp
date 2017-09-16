@@ -21,7 +21,7 @@
 #include "offsetInfo.h"
 
 static const timeZone::offsetInfo_t offsetInfos[] = {
-  {0x8000000000000000, 1172130},
+  {INT64_MIN, 1172130},
   {-1693700372130, 4772130},
   {-1680484772130, 1172130},
   {-1663453172130, 4772130},
@@ -374,7 +374,7 @@ static const timeZone::offsetInfo_t offsetInfos[] = {
   {4835638800000, 7200000},
   {4854387600000, 3600000},
 
-  {0x7FFFFFFFFFFFFFFF, 1172130}
+  {INT64_MAX, 1172130}
 };
 
 static const int offsetInfoCount = sizeof (offsetInfos) / sizeof (timeZone::offsetInfo_t);
